@@ -1,5 +1,3 @@
-# teste
-
 let questions = document.querySelectorAll('.css-10k9c7k'); 
 let dataToSolve = []; 
 
