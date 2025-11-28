@@ -1,3 +1,6 @@
+# 🎯 Quiz Solver Script
+
+```javascript
 let questions = document.querySelectorAll('.css-10k9c7k'); 
 let dataToSolve = []; 
 
@@ -13,7 +16,7 @@ questions.forEach(question => {
     
     answers.forEach((answer, index) => { 
         let letter = String.fromCharCode(65 + index); 
-        options.push(`${letter}) ${answer.textContent}`);  // ✅ CORRIGIDO
+        options.push(`${letter}) ${answer.textContent}`);
     }); 
     
     dataToSolve.push({ 
@@ -48,3 +51,4 @@ copy(promptText);
 console.log("✅ Prompt copiado com letras! Agora vá ao Gemini/ChatGPT e dê Ctrl+V."); 
 console.log("Preview do início do prompt:"); 
 console.log(promptText.substring(0, 300) + "...");
+```
