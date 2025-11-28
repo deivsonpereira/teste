@@ -13,8 +13,7 @@ questions.forEach(question => {
     
     answers.forEach((answer, index) => { 
         let letter = String.fromCharCode(65 + index); 
-        // CORREÇÃO: adicionadas as crases
-        options.push(`${letter}) ${answer.textContent}`); 
+        options.push(`${letter}) ${answer.textContent}`);  // ✅ CORRIGIDO
     }); 
     
     dataToSolve.push({ 
